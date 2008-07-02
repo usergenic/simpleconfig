@@ -1,0 +1,1 @@
+<%= %w{a dynamic key}.join('_') %> : some_<%='dynamic'%>_content
