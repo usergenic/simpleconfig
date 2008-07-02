@@ -12,7 +12,7 @@
         s.email = ["brendan@usergenic.com"]
         s.executables = []
         s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-        s.files = ["History.txt", "lib", "lib/simpleconfig.rb", "Manifest.txt", "Rakefile", "README.txt", "simpleconfig-0.0.4.gem", "simpleconfig.gemspec", "spec", "spec/fixtures", "spec/fixtures/folder1", "spec/fixtures/folder1/data.yml", "spec/fixtures/folder1/erbified.yml", "spec/fixtures/folder1/other_data.yml", "spec/fixtures/folder2", "spec/fixtures/folder2/data.yml", "spec/fixtures/folder2/only_in_folder2.yml", "spec/fixtures/folder2/other_data.yml", "spec/simpleconfig_spec.rb", "spec/spec_helper.rb"]
+        s.files = ["History.txt", "lib", "lib/simpleconfig.rb", "Manifest.txt", "Rakefile", "README.txt", "simpleconfig-0.0.5.gem", "simpleconfig.gemspec", "spec", "spec/fixtures", "spec/fixtures/folder1", "spec/fixtures/folder1/data.yml", "spec/fixtures/folder1/erbified.yml", "spec/fixtures/folder1/other_data.yml", "spec/fixtures/folder2", "spec/fixtures/folder2/data.yml", "spec/fixtures/folder2/only_in_folder2.yml", "spec/fixtures/folder2/other_data.yml", "spec/simpleconfig_spec.rb", "spec/spec_helper.rb"]
         s.has_rdoc = true
         s.homepage = "http://github.com/brendan/simpleconfig/wikis"
         s.rdoc_options = ["--main", "README.txt"]
