@@ -3,7 +3,8 @@ lib
 lib/simpleconfig.rb
 Manifest.txt
 Rakefile
-README
+README.txt
+simpleconfig-0.0.4.gem
 simpleconfig.gemspec
 spec
 spec/fixtures
