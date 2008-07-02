@@ -1,0 +1,6 @@
+=== 0.0.1-4 / 2008-07-02
+
+* Birthday!
+* A few versions, just trying to get it on Github properly.  My git-fu is weak right now.
+
+
