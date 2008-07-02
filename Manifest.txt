@@ -1,7 +1,9 @@
 lib
 lib/simpleconfig.rb
+Manifest.txt
 Rakefile
 README
+simpleconfig.gemspec
 spec
 spec/fixtures
 spec/fixtures/folder1

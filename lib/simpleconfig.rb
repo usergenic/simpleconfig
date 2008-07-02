@@ -3,7 +3,7 @@ require 'yaml'
 
 class SimpleConfig < Hash
   
-  VERSION='0.0.1'
+  VERSION='0.0.2'
   AUTHORS=["Brendan Baldwin"]
   EMAIL=["brendan@usergenic.com"]
   DESCRIPTION=%q{This is a really simple system for getting configuration data into your app.  See the wiki at http://github.com/brendan/simpleconfig/wikis for usage.}
