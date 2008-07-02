@@ -1,3 +1,4 @@
+History.txt
 lib
 lib/simpleconfig.rb
 Manifest.txt
