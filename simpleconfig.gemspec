@@ -1,12 +1,12 @@
       Gem::Specification.new do |s|
         s.name = %q{simpleconfig}
-        s.version = "0.0.5"
+        s.version = "0.0.6"
 
         s.specification_version = 2 if s.respond_to? :specification_version=
 
         s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
         s.authors = ["Brendan Baldwin"]
-        s.date = "2008-07-02"
+        s.date = "2008-07-07"
         s.default_executable = nil
         s.description = "This is a really simple system for getting configuration data into your app.  See the wiki at http://github.com/brendan/simpleconfig/wikis for usage."
         s.email = ["brendan@usergenic.com"]

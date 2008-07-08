@@ -3,7 +3,7 @@ require 'yaml'
 
 class SimpleConfig < Hash
   
-  VERSION='0.0.5'
+  VERSION='0.0.6'
   AUTHORS=["Brendan Baldwin"]
   EMAIL=["brendan@usergenic.com"]
   DESCRIPTION=%q{This is a really simple system for getting configuration data into your app.  See the wiki at http://github.com/brendan/simpleconfig/wikis for usage.}
@@ -61,7 +61,7 @@ class SimpleConfig < Hash
   
   def methodize_keys_and_freeze
     keys.each do |key|
-      value = send(key)
+      value = send(key) unless (method key rescue nil)
       value.methodize_keys_and_freeze if value.is_a?(Hash)
     end
     freeze
@@ -92,6 +92,7 @@ class SimpleConfig < Hash
   end
 
   def method_missing(method_id, *arguments, &block)
+    return super if method(method_id) rescue nil
     if defined?(@folders)
       data = load_and_merge(@folders.reverse.map {|f| File.join(f,"#{method_id}.yml")})
       self[method_id] = data unless data == nil
